@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Catacombs - Play</title>
+    <style>
+        @font-face {
+            font-family: Silkscreen-Bold;
+            src: url(Fonts/Silkscreen-Bold.ttf);
+        }
+
+        body {
+            background-image: url("Images/backgroundwnav.jpg");
+            background-repeat: no-repeat;
+            background-position-x: left;
+            background-position-y: top;
+            background-size: cover;
+            height: 100%;
+        }
+
+        h1 {
+            font-size: 45px;
+            color: black;
+            margin-left: 500px;
+            font-family: "Silkscreen-Bold", sans-serif;
+        }
+
+        .regularText {
+            color: white;
+            font-size: 20px;
+            font-family: "Silkscreen-Bold", sans-serif;
+        }
+
+        .blank {
+            color: transparent;
+        }
+
+        .homeButton {
+            margin-left: 250px;
+        }
+
+        .newsButton {
+            margin-left: 100px;
+        }
+
+        .playButton {
+            font-size: 15px;
+            font-family: "Silkscreen-Bold", sans-serif;
+            margin-left: 100px;
+            background-color: yellow;
+            border-radius: 10px;
+        }
+
+        .trailerButton {
+            margin-left: 100px;
+        }
+
+        .aboutButton {
+            margin-left: 100px;
+        }
+
+        #button {
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            border-radius: 10px;
+            font-family: "Silkscreen-Bold", sans-serif;
+            background-color: #4CAF50;
+            font-size: 15px;
+        }
+
+        #button:hover {
+            background-color: lime;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <button id="button" class="homeButton" onclick="window.location.href='index.html'">Home</button>
+    <button id="button" class="newsButton" onclick="window.location.href='news.html'">News</button>
+    <button class="playButton">Play</button>
+    <button id="button" class="aboutButton" onclick="window.location.href='aboutpage.html'">About</button>
+    <button id="button" class="trailerButton" onclick="window.location.href='trailer.html'">Trailer</button>
+    <p class="blank">_</p>
+    <h1>PLAY</h1>
+    <p class="blank">_</p>
+    <p class="regularText">Play Game Here:</p>
+    <button id="button" onclick="window.location.href='https://gx.games/games/hsu8an/the-catacombs/'">Play</button>
+</body>
+
+</html>

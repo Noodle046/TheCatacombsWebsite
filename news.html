@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Catacombs - News</title>
+    <style>
+        @font-face {
+            font-family: Silkscreen-Bold;
+            src: url(Fonts/Silkscreen-Bold.ttf);
+        }
+
+        body {
+            background-image: url("Images/backgroundwnav.jpg");
+            background-repeat: no-repeat;
+            background-position-x: left;
+            background-position-y: top;
+            background-size: cover;
+            height: 100%;
+        }
+
+        h1 {
+            font-family: "Silkscreen-Bold", sans-serif;
+            font-size: 45px;
+            margin-left: 500px;
+        }
+
+        .newsText {
+            font-size: 20px;
+            font-family: "Silkscreen-Bold", sans-serif;
+        }
+
+        .blank {
+            color: transparent;
+        }
+
+        .homeButton {
+            margin-left: 250px;
+        }
+
+        .newsButton {
+            font-size: 15px;
+            font-family: "Silkscreen-Bold", sans-serif;
+            margin-left: 100px;
+            background-color: yellow;
+            border-radius: 10px;
+        }
+
+        .playButton {
+            margin-left: 100px;
+        }
+
+        .trailerButton {
+            margin-left: 100px;
+        }
+
+        .aboutButton {
+            margin-left: 100px;
+        }
+
+        #button {
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            border-radius: 10px;
+            font-family: "Silkscreen-Bold", sans-serif;
+            background-color: #4CAF50;
+            font-size: 15px;
+        }
+
+        #button:hover {
+            background-color: lime;
+            transform: scale(1.1);
+        }
+
+        #newsbutton {
+            margin-left: 50px;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        #newsbutton:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <button id="button" class="homeButton" onclick="window.location.href='index.html'">Home</button>
+    <button class="newsButton" onclick="window.location.href='news.html'">News</button>
+    <button id="button" class="playButton" onclick="window.location.href='play.html'">Play</button>
+    <button id="button" class="aboutButton" onclick="window.location.href='aboutpage.html'">About</button>
+    <button id="button" class="trailerButton" onclick="window.location.href='trailer.html'">Trailer</button>
+    <p class="blank">_</p>
+    <h1>News</h1>
+    <p class="blank">_</p>
+    <p class="blank">_</p>
+    <img id="newsbutton" class="webfin" src="images/news1.jpg" alt="website finished">
+    <img id="newsbutton" class="webfin" src="images/news2.jpg" alt="game finished">
+</body>
+
+</html>
